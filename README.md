@@ -29,6 +29,7 @@ The blueprint also leaves room for the project to grow. After we get a reliable 
 ```text
 CAD/
   lego_motor_adapter_test.stl
+  rc_car_body.stl
 
 Blueprints/
   rc_car_blueprint.svg
@@ -39,6 +40,10 @@ Blueprints/
 ### `lego_motor_adapter_test.stl`
 
 Prototype motor/wheel adapter for testing the fit between the DC motor shaft and the wheels. This is an iterative part and may be revised after physical test fitting.
+
+### `rc_car_body.stl`
+
+The printable RC car body model currently being used for the project. This STL replaces the earlier OpenSCAD source file so the repository now contains the actual printable mesh.
 
 ## Blueprint
 
