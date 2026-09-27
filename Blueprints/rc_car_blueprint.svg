@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="950" viewBox="0 0 1200 950">
+<style>text{font-family:Arial,sans-serif;fill:#17243a} .title{font-size:30px;font-weight:700}.sub{font-size:17px}.label{font-size:16px}.small{font-size:13px}.outline{fill:#f8fafc;stroke:#223650;stroke-width:3}.part{fill:#dce9f7;stroke:#355a80;stroke-width:2}.future{fill:#eee6fa;stroke:#7854a1;stroke-width:2;stroke-dasharray:7 4}.drive{fill:#e2f3e5;stroke:#3e7b4a;stroke-width:2}.power{fill:#fff0d6;stroke:#ad792e;stroke-width:2}.line{stroke:#52657c;stroke-width:2;fill:none}.dim{stroke:#8898a9;stroke-width:1.5;fill:none;marker-start:url(#arrow);marker-end:url(#arrow)}</style>
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto-start-reverse"><path d="M0 0 L7 3.5 L0 7 Z" fill="#8898a9"/></marker></defs>
+<text x="40" y="50" class="title">3D-printed RC car — modular concept blueprint</text>
+<text x="40" y="77" class="sub">Top view • front at top • dimensions in mm • fit mounts to the parts you actually buy</text>
+<rect x="180" y="149" width="340" height="562" rx="29" class="outline"/>
+<rect x="203" y="172" width="294" height="516" rx="16" fill="#f3f8fd" stroke="#afc3d6" stroke-dasharray="7 5" stroke-width="2"/>
+<text x="350" y="196" text-anchor="middle" class="small">removable printed body shell</text>
+<rect x="220" y="220" width="260" height="460" rx="13" class="outline"/>
+<text x="350" y="662" text-anchor="middle" class="small">printed chassis 260 × 160</text>
+<rect x="137" y="225" width="61" height="94" rx="14" fill="#35404c"/><rect x="502" y="225" width="61" height="94" rx="14" fill="#35404c"/>
+<rect x="137" y="579" width="61" height="94" rx="14" fill="#35404c"/><rect x="502" y="579" width="61" height="94" rx="14" fill="#35404c"/>
+<path d="M198 272 H502 M198 626 H502" class="line"/>
+<text x="350" y="257" text-anchor="middle" class="small">front steering linkage + servo horn</text>
+<rect x="305" y="275" width="90" height="46" rx="5" class="part"/><text x="350" y="302" text-anchor="middle" class="small">steering servo</text>
+<rect x="290" y="342" width="120" height="57" rx="8" class="future"/><text x="350" y="365" text-anchor="middle" class="small">future computer</text><text x="350" y="383" text-anchor="middle" class="small">+ USB camera port</text>
+<rect x="260" y="421" width="180" height="90" rx="9" class="power"/><text x="350" y="451" text-anchor="middle" class="label">battery tray</text><text x="350" y="474" text-anchor="middle" class="small">low and centered; strapped</text>
+<rect x="245" y="525" width="90" height="48" rx="6" class="part"/><text x="290" y="552" text-anchor="middle" class="small">receiver</text>
+<rect x="365" y="525" width="90" height="48" rx="6" class="part"/><text x="410" y="552" text-anchor="middle" class="small">ESC</text>
+<rect x="265" y="588" width="170" height="70" rx="9" class="drive"/><text x="350" y="613" text-anchor="middle" class="small">gearbox + motor</text><text x="350" y="634" text-anchor="middle" class="small">driven rear axle</text>
+<rect x="286" y="133" width="128" height="45" rx="8" class="future"/><text x="350" y="159" text-anchor="middle" class="small">future camera</text>
+<rect x="235" y="203" width="230" height="14" rx="6" class="drive"/>
+<text x="350" y="125" text-anchor="middle" class="small">front bumper</text>
+<path d="M580 272 H611 M580 626 H611 M600 272 V626" class="dim"/><text x="620" y="455" class="label">wheelbase 180</text>
+<path d="M220 731 V756 M480 731 V756 M220 747 H480" class="dim"/><text x="350" y="782" text-anchor="middle" class="label">chassis length 260</text>
+<path d="M220 703 V721 M480 703 V721 M220 713 H480" class="dim"/>
+<text x="350" y="830" text-anchor="middle" class="label">wheel diameter ≈65; track ≈185 center to center</text>
+<text x="700" y="134" class="title" style="font-size:24px">Exploded stack / mounting order</text>
+<rect x="730" y="163" width="390" height="51" rx="8" class="future"/><text x="925" y="195" text-anchor="middle" class="label">optional camera + computer cover</text>
+<path d="M925 214 V242" class="line"/>
+<rect x="730" y="242" width="390" height="51" rx="8" class="part"/><text x="925" y="274" text-anchor="middle" class="label">printed removable body shell + 4 posts</text>
+<path d="M925 293 V321" class="line"/>
+<rect x="730" y="321" width="390" height="51" rx="8" class="power"/><text x="925" y="353" text-anchor="middle" class="label">battery / receiver / ESC / servo / motor</text>
+<path d="M925 372 V400" class="line"/>
+<rect x="730" y="400" width="390" height="51" rx="8" class="outline"/><text x="925" y="432" text-anchor="middle" class="label">printed chassis plate + raised electronics tray</text>
+<path d="M925 451 V479" class="line"/>
+<rect x="730" y="479" width="390" height="51" rx="8" class="drive"/><text x="925" y="511" text-anchor="middle" class="label">front steering / rear gearbox / four wheels</text>
+<text x="700" y="586" class="title" style="font-size:24px">Build rules</text>
+<text x="700" y="624" class="label">• Keep the battery low and the wires away from gears.</text>
+<text x="700" y="658" class="label">• Use metal shafts, bearings, screws and a real gearbox.</text>
+<text x="700" y="692" class="label">• Print mounting holes to measured component sizes.</text>
+<text x="700" y="726" class="label">• Add a physical power switch and manual stop.</text>
+<text x="700" y="760" class="label">• Test driving before adding autonomous control.</text>
+<text x="40" y="911" class="small">Concept drawing, not a manufacturing drawing. Dimensions and drivetrain mounts must be adapted to your chosen parts.</text>
+</svg>
