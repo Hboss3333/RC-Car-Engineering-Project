@@ -1,0 +1,35 @@
+name: Assemble RC body STL
+
+on:
+  push:
+    paths:
+      - ".github/workflows/assemble-rc-body-stl.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Assemble STL
+        shell: bash
+        run: |
+          mkdir -p CAD
+          : > CAD/rc_car_body.stl
+          for f in CAD/.chunks/part*.txt; do
+            cat "$f" >> CAD/rc_car_body.stl
+            printf '\n' >> CAD/rc_car_body.stl
+          done
+          rm -rf CAD/.chunks
+      - name: Commit assembled STL
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add CAD/rc_car_body.stl CAD/.chunks
+          git commit -m "Replace SCAD body with complete STL"
+          git push
