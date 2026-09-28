@@ -15,7 +15,7 @@ The blueprint also leaves room for the project to grow. After we get a reliable 
 - 3D-printed chassis/body
 - Four-wheel layout
 - Front steering
-- Rear drivetrain using DC motor(s) and gearing/axle hardware
+- Two 3–6 V rear drive motors, one per rear wheel, with supported wheel axles
 - Low, centered battery placement
 - Separate mounting locations for receiver, ESC/motor controller, and steering servo
 - Custom motor-to-wheel adapters where needed
@@ -28,7 +28,7 @@ The blueprint also leaves room for the project to grow. After we get a reliable 
 
 ```text
 CAD/
-  lego_motor_adapter_test.stl
+  lego_motor_adapter_2_total.stl
   rc_car_body.stl
 
 Blueprints/
@@ -37,9 +37,9 @@ Blueprints/
 
 ## CAD files
 
-### `lego_motor_adapter_test.stl`
+### `lego_motor_adapter_2_total.stl`
 
-Prototype motor/wheel adapter for testing the fit between the DC motor shaft and the wheels. This is an iterative part and may be revised after physical test fitting.
+Two different motor-to-LEGO cross-axle test adapters for the planned two-motor rear drive. The shaft sockets are provisional (4.5 × 2.8 mm and 5.0 × 3.2 mm). Print at 100% scale, test gently with motors unplugged, then make two matching final adapters once the fit is known. The body was printed at 70% scale.
 
 ### `rc_car_body.stl`
 
