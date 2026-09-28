@@ -28,7 +28,7 @@ The blueprint also leaves room for the project to grow. After we get a reliable 
 
 ```text
 CAD/
-  lego_motor_adapter_2_total.stl
+  lego_motor_adapter_2_larger_sockets.stl
   rc_car_body.stl
 
 Blueprints/
@@ -37,9 +37,9 @@ Blueprints/
 
 ## CAD files
 
-### `lego_motor_adapter_2_total.stl`
+### `lego_motor_adapter_2_larger_sockets.stl`
 
-Two different motor-to-LEGO cross-axle test adapters for the planned two-motor rear drive. The shaft sockets are provisional (4.5 × 2.8 mm and 5.0 × 3.2 mm). Print at 100% scale, test gently with motors unplugged, then make two matching final adapters once the fit is known. The body was printed at 70% scale.
+Two different motor-to-LEGO cross-axle test adapters for the planned two-motor rear drive. The shaft sockets are provisional (4.7 × 3.0 mm and 5.2 × 3.4 mm). Print at 100% scale, test gently with motors unplugged, then make two matching final adapters once the fit is known. The LEGO cross-axle end is unchanged from the previous test. The motor sockets are each widened by 0.2 mm in both dimensions. The body was printed at 70% scale.
 
 ### `rc_car_body.stl`
 
