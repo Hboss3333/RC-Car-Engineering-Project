@@ -45,6 +45,10 @@ Two different motor-to-LEGO cross-axle test adapters for the planned two-motor r
 
 The printable RC car body model currently being used for the project. This STL replaces the earlier OpenSCAD source file so the repository now contains the actual printable mesh.
 
+### `wedge_for_motor_tilt.stl`
+
+This is a 3d print made to combat the slant of the original RC car body. It is a wedge that both the DC motors will sit on to be on the same heigt as the wheel opening. The wedge's angle is 33.94 degrees which is the same as the RC car body so I should just be able to glue it in.
+
 ## Blueprint
 
 ### `rc_car_blueprint.svg`
